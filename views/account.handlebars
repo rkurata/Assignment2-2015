@@ -1,9 +1,33 @@
-<p>ID: {{user.id}}</p>
-<p>Name: {{user.name}}</p>
-<p>Instagram ID:{{user.ig_id}}</p>
+<body>
+	<div class = "button" align="center">
+		<a href="/login"> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" width="50" height="50" /></a>
+			
+		<a href="/feed"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/instagram.png" width="50" height="50" /></a>
+		
+		
+	</div>
 
-<a href="/c3visualization">view C3 visualization</a>
-<br/>
-<a href="/visualization">view D3 visualization</a>
+	<div id="info">
+
+		<h4><center>Instagram Account Info For</center></h4><center><h2>{{user.name}} </h2></center>
+
+		<div id="user">
+			<p>ID: {{user.id}}</p>
+			<p>Instagram ID: {{user.ig_id}} </p>
+			<p>Username: {{user.username}}</p>
+		</div>
+
+	</div>
+
+<h1 id="title">Where would you like to go next?</h1>
+
+	<div align="center">
+		<button class="nav"  onclick="window.location.href='/c3visualization'">C3 Visualization</button>
+
+		<button class="nav"  onclick="window.location.href='/visualization'">D3 Visualization</button>
+	</div>
+</body>	
+
+
 
 
