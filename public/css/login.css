@@ -1,7 +1,7 @@
 body {
   font-family: "Georgia";
   color: #656A94;
-  background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
+ /* background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg"); */
   background-attachment:fixed;
   background-size: 100% 100%;
   width: 100%;
@@ -11,34 +11,200 @@ body {
   background-position: left top;
 }
 
+#spinner {
+  background-image url: ("http://cdn.roojoom.com/src_images/src_61778_spinner_180-44be34c342749928daa37c084ac34a6c.gif");
+}
 
-button{
+.button{
   padding:7px;
-  margin-top: 30px;
-  margin-bottom:30px;
-  margin-left:10px;
-
+  margin-top: 10px;
 }
 
 .nav{
   padding:7px;
-  margin-top: 20px;
-  margin-bottom:30px;
-  margin-left:10px;
-   border-radius: 5px;
-  border: 2px solid #ffffff;
+  margin-top: 0px;
+  margin-right:55px;
+  margin-left:55px;
+  border-radius: 5px;
+  border: 1px solid #33334C;
+  background-color: #33334C;
+  color: #ffffff;
+  text-align:center;
+  width: 125px;
+  font-family:georgia;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+}
+
+.current{
+  padding:7px;
+  margin-top: 0px;
+  margin-right:55px;
+  margin-left:55px;
+  border-radius: 5px;
+  border: 2px solid #33334C;
   background-color: #ffffff;
   color: #000000;
   text-align:center;
-  width: 150px;
-  margin-right:10px;
+  width: 125px;
+  padding-bottom:10px;
   font-family:georgia;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
 }
 
+.nav2{
+  padding:7px;
+  margin-top: 0px;
+  margin-right:50px;
+  margin-left:50px;
+  border-radius: 5px;
+  border: 1px solid #33334C;
+  background-color: #33334C;
+  color: #ffffff;
+  text-align:center;
+  width: 125px;
+  font-family:georgia;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+}
+
+.current2{
+  padding:7px;
+  margin-top: 0px;
+  margin-right:50px;
+  margin-left:50px;
+  border-radius: 5px;
+  border: 2px solid #33334C;
+  background-color: #ffffff;
+  color: #000000;
+  text-align:center;
+  width: 125px;
+  padding-bottom:10px;
+  font-family:georgia;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+}
+
+
+
+#navbar {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+    margin-bottom:10px;
+}
+/*
+nav{
+  width: 1410px;
+  height:70px;
+  border: 2px solid #CFCFCF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+nav > ul > li {
+  float:left;
+  height:70px;
+  display:inline-block;
+
+
+}
+
+nav > ul > li > a{ 
+  display:block;
+  line-height:70px;
+  text-decoration:none;
+  text-align:center;
+  color:#000000;
+  font-size:16pt;
+  font-family:"Georgia";
+  border-left:3px solid #E6E6E6; 
+  margin-top:0px;
+  }
+
+nav > ul > li > a:hover{text-decoration:none}
+
+nav > ul > li.m1{width:235px}
+nav > ul > li.m2{width:235px}
+nav > ul > li.m3{width:235px}
+nav > ul > li.m4{width:235px}
+nav > ul > li.m5{width:235px}
+nav > ul > li.m6{width:235px}
+
+nav > ul > li.m1 > a{border:none;padding-top:10px;}
+
+
+*/
+
+.logout{
+  padding:7px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  border: 2px solid #33334C;
+  /*background-color: #85E0E0;*/
+  background-color:#33334C;
+  color: #ffffff;
+  text-align:center;
+  width: 125px;
+  font-family:georgia;
+   box-shadow: 2px 2px 1.5px #E6E6E6;
+}
+
+
+#chart{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5%;
+  height: 500px;
+  width:1250px;
+}
+
+#likeschart{
+  margin-left:auto;
+  margin-right:auto;
+}
+#d3chart {
+  background: #ffffff;
+  border-radius: 5px;
+}
 
 .icons{
   margin-top: 15%;
   text-align:center;
+}
+
+#next {
+  background: #ffffff;
+  border-radius: 5px;
+    border: 1px solid #CFCFCF;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+  padding: 20px;
+  padding-bottom:30px;
+  margin-top:20px;
+  margin-bottom: 30px;
+  width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: "Georgia";
+  top: 0px;
+}
+
+.homenav {
+  padding:7px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-right:40px;
+  margin-left:40px;
+  border-radius: 5px;
+  border: 2px solid #33334C;
+  /*background-color: #85E0E0;*/
+  background-color:#33334C;
+  color: #ffffff;
+  text-align:center;
+  width: 125px;
+   box-shadow: 2px 2px 1.5px #E6E6E6;
 }
 
 .insta {
@@ -50,68 +216,78 @@ button{
   display: inline-block;
 }
 
-.fb {
-  float: center; 
-  width: 256px; 
-  margin-left: 5px;
-  margin-right: 1%; 
-  margin-top: 1%; 
-  margin-bottom: 0.5em;
-  display: inline-block;
-}
-
 .insta .cap1,
 .fb .cap2    {
   opacity: 0;
   
 }
 
+
+
 a{
   margin-right:10px;
   margin-top: 40%;
-
 }
+
 #title {
   font-family: "Georgia";
   color: #000000;
   text-align:center;
+  margin-bottom:25px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  width: 700px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 450px;
+  padding:15px;
 }
 
-p#login{
+#c3title {
+  font-family: "Georgia";
+  color: #000000;
+  text-align:center;
+  border-radius: 5px;
+  border: 1px solid #CFCFCF;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+  width: 625px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:15px;
+}
+
+#login{
   font-size: 32pt;
   font-family: "Georgia";
-  color: white;
+  color: black;
   float: center;
   text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+  border-radius: 5px;
+  border: 1px solid #CFCFCF;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
+  padding:15px;
+  width:500px;
 }
 
 #info{
   border-radius: 5px;
-  border: 3px solid #ffffff;
+  border: 1px solid #CFCFCF;
+  box-shadow: 2px 2px 1.5px #E6E6E6;
   text-align:center;
   background-color: #ffffff;
   color: #000000;
-  padding: 10px;
+  padding: 20px;
+  padding-bottom:30px;
   margin-top:20px;
   margin-bottom: 30px;
- margin-left:30%;
- margin-right:30%;
- font-family: "Georgia";
- top: 0px;
-}
-
-
-#photos{
-  border-radius: 5px;
-  color: #000000;
-  margin-top:30px;
-  border: 3px solid #ffffff;
-  text-align:center;
-  margin-bottom: 30px;
-  margin-left:30%;
+  width: 500px;
+  margin-left:auto;
+  margin-right:auto;
   font-family: "Georgia";
-  margin-right:30%;
-  padding:5%;
+  top: 0px;
 }
 
 #caption{
