@@ -2,6 +2,22 @@ var margin = {top: 20, right: 20, bottom: 100, left: 250};
 var width = 1000;
 var height = 550 - margin.top - margin.bottom;
 
+
+var spinnerVisible = false;
+function showProgress() {
+  if (!spinnerVisible) {
+    $("div#spinner").fadeIn("fast");
+    spinnerVisible = true;
+  }
+}
+function hideProgress() {
+  if (spinnerVisible) {
+    var spinner = $("div#spinner");
+    spinner.stop();
+    spinner.fadeOut("fast");
+    spinnerVisible = false;
+  }
+}
 //define scale of x to be from 0 to width of SVG, with .1 padding in between
 var x = d3.scale.ordinal()
   .rangeRoundBands([0, width], .1, 1);
@@ -37,6 +53,7 @@ var svg = d3.select("body").append("svg")
 
 
 //svg.call(tip);
+showProgress();
 
 //get json object which contains media counts
 d3.json('/igMediaCounts', function(error, data) {
@@ -123,6 +140,7 @@ d3.json('/igMediaCounts', function(error, data) {
       //.transition()
       //.attr("transform", "translate(0," + height/2 + ")");
     } 
+hideProgress();
 
     function removePop () {
       $('.popover').each(function() {
