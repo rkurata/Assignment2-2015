@@ -151,7 +151,48 @@ app.get('/login', function(req, res){
 
 app.get('/account', ensureAuthenticated, function(req, res){
   res.render('account', {user: req.user});
+
 });
+
+app.get('/iglikes', ensureAuthenticated, function(req, res){
+  var query  = models.User.where({  ig_id: req.user.ig_id });
+  query.findOne(function (err, user) {
+    if (err) return handleError(err);
+    if (user) {
+      // doc may be null if no document matched
+   // console.log("hi");
+      Instagram.users.recent({
+        user_id: user.ig_id,
+        access_token: user.ig_access_token,
+        complete: function(data) {
+        //  console.log(data);
+          //Map will iterate through the returned data obj
+        
+            //console.log(JSON.parse(follows));
+
+             var imageArr = data.map(function(item) {
+            //create temporary json object
+            tempJSON = {};
+            tempJSON.likes = item.likes.count;
+            tempJSON.id = item.created_time;
+            tempJSON.img = item.images.standard_resolution.url;
+            tempJSON.text = item.caption !== null ? item.caption.text : 'this picture has no caption';
+             
+            return tempJSON;
+          });
+             
+       return   res.json({likes: imageArr});
+       
+          
+
+       }, error: function(errorMessage, errorObject, caller){
+            console.log(errorMessage);          }
+      }); 
+    }
+  });
+ // console.log('lkujhgbfv');
+});
+
 
 app.get('/igphotos', ensureAuthenticatedInstagram, function(req, res){
   var query  = models.User.where({ ig_id: req.user.ig_id });
@@ -159,7 +200,7 @@ app.get('/igphotos', ensureAuthenticatedInstagram, function(req, res){
     if (err) return err;
     if (user) {
       // doc may be null if no document matched
-      Instagram.users.liked_by_self({
+      Instagram.users.self({
         access_token: user.ig_access_token,
         complete: function(data) {
           console.log(data);
@@ -178,6 +219,9 @@ app.get('/igphotos', ensureAuthenticatedInstagram, function(req, res){
   });
 });
 
+
+
+
 app.get('/igMediaCounts', ensureAuthenticatedInstagram, function(req, res){
   var query  = models.User.where({ ig_id: req.user.ig_id });
   query.findOne(function (err, user) {
@@ -187,10 +231,11 @@ app.get('/igMediaCounts', ensureAuthenticatedInstagram, function(req, res){
         user_id: user.ig_id,
         access_token: user.ig_access_token,
         complete: function(data) {
+          console.log(data);
           // an array of asynchronous functions
           var asyncTasks = [];
           var mediaCounts = [];
-           
+          //  console.log(data);
           data.forEach(function(item){
             asyncTasks.push(function(callback){
               // asynchronous function!
@@ -220,7 +265,16 @@ app.get('/igMediaCounts', ensureAuthenticatedInstagram, function(req, res){
 
 app.get('/visualization', ensureAuthenticatedInstagram, function (req, res){
   res.render('visualization');
-}); 
+});
+
+app.get('/follows', ensureAuthenticatedInstagram, function (req, res){
+  res.render('follows');
+});
+
+
+app.get('/likes', ensureAuthenticatedInstagram, function (req, res){
+  res.render('likes');
+});
 
 
 app.get('/c3visualization', ensureAuthenticatedInstagram, function (req, res){
