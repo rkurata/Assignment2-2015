@@ -23,6 +23,9 @@ body {
 #bg {
   width: 1270px;
   height:auto;
+  background-color:#ffffff;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .nav{
@@ -147,7 +150,7 @@ nav > ul > li.m1 > a{border:none;padding-top:10px;}
   border: 2px solid #FFCCCC;
   /*background-color: #85E0E0;*/
   background-color:#FFCCCC;
-  color: #ffffff;
+  color: #000000;
   text-align:center;
   width: 125px;
   font-family:georgia;
@@ -198,10 +201,10 @@ nav > ul > li.m1 > a{border:none;padding-top:10px;}
   margin-right:40px;
   margin-left:40px;
   border-radius: 5px;
-  border: 2px solid #33334C;
+  border: 2px solid #FFCCCC;
   /*background-color: #85E0E0;*/
-  background-color:#33334C;
-  color: #ffffff;
+  background-color:#FFCCCC;
+  color: #000000;
   text-align:center;
   width: 125px;
    box-shadow: 2px 2px 1.5px #E6E6E6;
