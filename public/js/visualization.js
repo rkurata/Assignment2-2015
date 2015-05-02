@@ -95,7 +95,6 @@ d3.json('/igMediaCounts', function(error, data) {
     .attr("width", x.rangeBand())
     .attr("y", function(d) { return y(d.counts.media); })
     .attr("height", function(d) { return height - y(d.counts.media); })
-     .attr("class", "bgd3")
     .on('mouseover', function(d) {showPop.call(this, d); })
     .on('mouseout', function(d) {removePop(); });
 
