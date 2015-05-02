@@ -178,7 +178,7 @@ nav > ul > li.m1 > a{border:none;padding-top:10px;}
 #next {
   background: #ffffff;
   border-radius: 5px;
-    border: 1px solid #CFCFCF;
+    border: 1px solid #ffffff;
   box-shadow: 2px 2px 1.5px #E6E6E6;
   padding: 20px;
   padding-bottom:30px;
@@ -259,6 +259,7 @@ a{
 #login{
   font-size: 32pt;
   font-family: "Georgia";
+  background-color:#ffffff;
   color: black;
   float: center;
   text-align: center;
@@ -275,7 +276,7 @@ a{
 
 #info{
   border-radius: 5px;
-  border: 1px solid #CFCFCF;
+  border: 1px solid #ffffff;
   box-shadow: 2px 2px 1.5px #E6E6E6;
   text-align:center;
   background-color: #ffffff;
