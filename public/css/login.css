@@ -30,7 +30,7 @@ body {
   margin-top: 0px;
   margin-right:auto;
   margin-left:auto;
-  background-color: #FFCCCC;
+  background-color: #33334C;
   color: #ffffff;
   text-align:center;
   width: 125px;
@@ -87,14 +87,11 @@ body {
 
 
 
-.navbar {
+#navbar {
   margin-left:auto;
   margin-right:auto;
   margin-top:15px;
-  margin-bottom:10px;
-  width:800px;
-  height:300px;
-  border-radius: 5px;
+    margin-bottom:10px;
 }
 /*
 nav{
