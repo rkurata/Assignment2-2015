@@ -53,7 +53,7 @@ body {
   margin-left:auto;
   background-color: #4D4D94;
   color: #ffffff;
-  font-size:18px;
+  font-size:20px;
   text-align:center;
   width: 200px;
   height:80px;
@@ -69,42 +69,11 @@ body {
   margin-left:auto;
   background-color: #ffffff;
   color: #000000;
-  font-size:18px;
+  font-size:20px;
   text-align:center;
   width: 200px;
   height:80px;
   font-family:georgia;
-}
-
-.nav2{
-  padding:7px;
-  margin-top: 0px;
-  margin-right:50px;
-  margin-left:50px;
-  border-radius: 5px;
-  border: 1px solid #33334C;
-  background-color: #33334C;
-  color: #ffffff;
-  text-align:center;
-  width: 125px;
-  font-family:georgia;
-  box-shadow: 2px 2px 1.5px #E6E6E6;
-}
-
-.current2{
-  padding:7px;
-  margin-top: 0px;
-  margin-right:50px;
-  margin-left:50px;
-  border-radius: 5px;
-  border: 2px solid #33334C;
-  background-color: #ffffff;
-  color: #000000;
-  text-align:center;
-  width: 125px;
-  padding-bottom:10px;
-  font-family:georgia;
-  box-shadow: 2px 2px 1.5px #E6E6E6;
 }
 
 #navbar {
@@ -225,7 +194,7 @@ a{
   color: #000000;
   text-align:center;
   border-radius: 5px;
-  border: 1px solid #4D4D94;
+  border: 2px solid #4D4D94;
   background-color:#ffffff;
   width: 625px;
   margin-left:auto;
