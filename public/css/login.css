@@ -20,14 +20,19 @@ body {
   margin-top: 10px;
 }
 
+#bg {
+  width: 1270px;
+  height:auto;
+}
+
 .nav{
   border-radius: 5px;
-  border: 1px solid #33334C;
+  border: 1px solid #FFCCCC;
   padding:7px;
   margin-top: 0px;
   margin-right:auto;
   margin-left:auto;
-  background-color: #33334C;
+  background-color: #FFCCCC;
   color: #000000;
   text-align:center;
   width: 125px;
@@ -36,7 +41,7 @@ body {
 
 .current{
   border-radius: 5px;
-  border: 1px solid #33334C;
+  border: 2px solid #FFCCCC;
   padding:7px;
   margin-top: 0px;
   margin-right:auto;
@@ -139,9 +144,9 @@ nav > ul > li.m1 > a{border:none;padding-top:10px;}
   margin-top: 10px;
   margin-bottom:10px;
   border-radius: 5px;
-  border: 2px solid #33334C;
+  border: 2px solid #FFCCCC;
   /*background-color: #85E0E0;*/
-  background-color:#33334C;
+  background-color:#FFCCCC;
   color: #ffffff;
   text-align:center;
   width: 125px;
@@ -174,8 +179,7 @@ nav > ul > li.m1 > a{border:none;padding-top:10px;}
 #next {
   background: #ffffff;
   border-radius: 5px;
-    border: 1px solid #ffffff;
-  box-shadow: 2px 2px 1.5px #E6E6E6;
+  border: 1px solid #ffffff;
   padding: 20px;
   padding-bottom:30px;
   margin-top:20px;
