@@ -26,6 +26,8 @@ body {
   background-color:#ffffff;
   margin-left:auto;
   margin-right:auto;
+  margin-top:0;
+  margin-bottom:0;
 }
 
 .nav{
@@ -87,60 +89,13 @@ body {
   box-shadow: 2px 2px 1.5px #E6E6E6;
 }
 
-
-
 #navbar {
   margin-left:auto;
   margin-right:auto;
   margin-top:15px;
     margin-bottom:10px;
 }
-/*
-nav{
-  width: 1410px;
-  height:70px;
-  border: 2px solid #CFCFCF;
-  border-radius: 5px;
-  box-shadow: 2px 2px 1.5px #E6E6E6;
-  margin-top:10px;
-  margin-left:auto;
-  margin-right:auto;
-}
 
-
-nav > ul > li {
-  float:left;
-  height:70px;
-  display:inline-block;
-
-
-}
-
-nav > ul > li > a{ 
-  display:block;
-  line-height:70px;
-  text-decoration:none;
-  text-align:center;
-  color:#000000;
-  font-size:16pt;
-  font-family:"Georgia";
-  border-left:3px solid #E6E6E6; 
-  margin-top:0px;
-  }
-
-nav > ul > li > a:hover{text-decoration:none}
-
-nav > ul > li.m1{width:235px}
-nav > ul > li.m2{width:235px}
-nav > ul > li.m3{width:235px}
-nav > ul > li.m4{width:235px}
-nav > ul > li.m5{width:235px}
-nav > ul > li.m6{width:235px}
-
-nav > ul > li.m1 > a{border:none;padding-top:10px;}
-
-
-*/
 
 .logout{
   padding:7px;
@@ -226,7 +181,6 @@ nav > ul > li.m1 > a{border:none;padding-top:10px;}
 }
 
 
-
 a{
   margin-right:10px;
   margin-top: 40%;
@@ -251,7 +205,7 @@ a{
   color: #000000;
   text-align:center;
   border-radius: 5px;
-  border: 1px solid #CFCFCF;
+  border: 1px solid #ffffff;
   background-color:#ffffff;
   width: 625px;
   margin-left:auto;
