@@ -87,11 +87,14 @@ body {
 
 
 
-#navbar {
+.navbar {
   margin-left:auto;
   margin-right:auto;
   margin-top:15px;
-    margin-bottom:10px;
+  margin-bottom:10px;
+  width:800px;
+  height:300px;
+  border-radius: 5px;
 }
 /*
 nav{
