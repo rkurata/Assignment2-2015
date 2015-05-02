@@ -46,7 +46,6 @@ var tip = d3.tip()
 */
   //create svg
 var svg = d3.select("body").append("svg")
-  .attr("class", "bgd3")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -96,6 +95,7 @@ d3.json('/igMediaCounts', function(error, data) {
     .attr("width", x.rangeBand())
     .attr("y", function(d) { return y(d.counts.media); })
     .attr("height", function(d) { return height - y(d.counts.media); })
+     .attr("class", "bgd3")
     .on('mouseover', function(d) {showPop.call(this, d); })
     .on('mouseout', function(d) {removePop(); });
 
