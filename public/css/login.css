@@ -21,14 +21,16 @@ body {
 }
 
 .nav{
-  /*padding:7px;
-  margin-top: 0px;
-  margin-right:55px;
-  margin-left:55px;
+  /*
+  
   border-radius: 5px;
   border: 1px solid #33334C;
   */
-  background-color: #33334C;
+  padding:7px;
+  margin-top: 0px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: #FFCCCC;
   color: #ffffff;
   text-align:center;
   width: 125px;
@@ -37,14 +39,14 @@ body {
 
 .current{
   /*
-  padding:7px;
-  margin-top: 0px;
-  margin-right:55px;
-  margin-left:55px;
   border-radius: 5px;
   border: 2px solid #33334C;
   padding-bottom:10px;
   */
+  padding:7px;
+  margin-top: 0px;
+  margin-right:auto;
+  margin-left:auto;
   background-color: #ffffff;
   color: #000000;
   text-align:center;
