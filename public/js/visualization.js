@@ -19,6 +19,8 @@ function hideProgress() {
   }
 }
 //define scale of x to be from 0 to width of SVG, with .1 padding in between
+var svg = d3.select("#d3chart").append("svg")
+
 var x = d3.scale.ordinal()
   .rangeRoundBands([0, width], .1, 1);
 
