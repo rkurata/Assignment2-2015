@@ -126,7 +126,7 @@ body {
 #next {
   background: #ffffff;
   border-radius: 5px;
-  border: 1px solid #4D4D94;
+  border: 2px solid #4D4D94;
   padding: 20px;
   padding-bottom:30px;
   margin-top:20px;
@@ -213,14 +213,14 @@ a{
   margin-right:auto;
   margin-bottom:20px;
   border-radius: 5px;
-  border: 1px solid #ffffff;
+  border: 2px solid #4D4D94;
   padding:15px;
   width:500px;
 }
 
 #info{
   border-radius: 5px;
-  border: 1px solid #4D4D94;
+  border: 2px solid #4D4D94;
 
   text-align:center;
   background-color: #ffffff;
