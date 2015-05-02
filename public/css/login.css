@@ -32,12 +32,12 @@ body {
 
 .nav{
   border-radius: 5px;
-  border: 1px solid #FFCCCC;
+  border: 1px solid #4D4D94;
   padding:7px;
   margin-top: 0px;
   margin-right:auto;
   margin-left:auto;
-  background-color: #FFCCCC;
+  background-color: #4D4D94;
   color: #000000;
   text-align:center;
   width: 125px;
@@ -46,7 +46,7 @@ body {
 
 .current{
   border-radius: 5px;
-  border: 2px solid #FFCCCC;
+  border: 2px solid #4D4D94;
   padding:7px;
   margin-top: 0px;
   margin-right:auto;
@@ -102,9 +102,9 @@ body {
   margin-top: 10px;
   margin-bottom:10px;
   border-radius: 5px;
-  border: 2px solid #FFCCCC;
+  border: 2px solid #4D4D94;
   /*background-color: #85E0E0;*/
-  background-color:#FFCCCC;
+  background-color:#4D4D94;
   color: #000000;
   text-align:center;
   width: 125px;
@@ -156,9 +156,9 @@ body {
   margin-right:40px;
   margin-left:40px;
   border-radius: 5px;
-  border: 2px solid #FFCCCC;
+  border: 2px solid #4D4D94;
   /*background-color: #85E0E0;*/
-  background-color:#FFCCCC;
+  background-color:#4D4D94;
   color: #000000;
   text-align:center;
   width: 125px;
