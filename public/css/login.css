@@ -1,7 +1,7 @@
 body {
   font-family: "Georgia";
   color: #656A94;
-  background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg"); 
+ /* background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg"); */
   background-attachment:fixed;
   background-size: 100% 100%;
   width: 100%;
@@ -126,7 +126,7 @@ body {
 #next {
   background: #ffffff;
   border-radius: 5px;
-  border: 1px solid #ffffff;
+  border: 1px solid #4D4D94;
   padding: 20px;
   padding-bottom:30px;
   margin-top:20px;
@@ -220,7 +220,7 @@ a{
 
 #info{
   border-radius: 5px;
-  border: 1px solid #ffffff;
+  border: 1px solid #4D4D94;
 
   text-align:center;
   background-color: #ffffff;

@@ -1,7 +1,7 @@
 var margin = {top: 20, right: 20, bottom: 100, left: 250};
 var width = 1000;
 var height = 550 - margin.top - margin.bottom;
-var background-color = #ffffff
+
 
 
 var spinnerVisible = false;
