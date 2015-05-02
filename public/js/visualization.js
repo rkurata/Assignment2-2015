@@ -46,6 +46,7 @@ var tip = d3.tip()
 */
   //create svg
 var svg = d3.select("body").append("svg")
+  .attr("class", "bgd3")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
