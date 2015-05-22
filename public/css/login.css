@@ -44,8 +44,7 @@ body {
   margin-bottom:0;
 }
 
-.nav{
-  /*border-radius: 5px;*/
+/*.nav{
   border: 1px solid #4D4D94;
   padding:7px;
   margin-top: 0px;
@@ -61,7 +60,6 @@ body {
 }
 
 .current{
-  /*border-radius: 5px;*/
   border: 2px solid #4D4D94;
   padding:7px;
   margin-top: 0px;
@@ -74,6 +72,24 @@ body {
   width: 200px;
   height:80px;
   font-family:georgia;
+}*/
+
+td{
+  padding:10px;
+}
+
+a:link{
+  text-decoration:none;
+  color:#433c4b;
+  font-size:20px;
+}
+
+a:hover{
+  color:#A898BD;
+}
+
+#current{
+  text-decoration:underline;
 }
 
 #navbar {
@@ -124,9 +140,11 @@ body {
 }
 
 #next {
-  background: #ffffff;
+  /*background: #ffffff;
   border-radius: 5px;
-  border: 2px solid #4D4D94;
+  border: 2px solid #4D4D94;*/
+  color:#000000;
+  border: 4px solid #add8e6;
   padding: 20px;
   padding-bottom:30px;
   margin-top:20px;
@@ -139,19 +157,22 @@ body {
 }
 
 .homenav {
+  font-family:georgia;
   padding:7px;
   margin-top: 10px;
   margin-bottom:10px;
   margin-right:40px;
   margin-left:40px;
-  border-radius: 5px;
+  border:4px solid #add8e6;
+  /*border-radius: 5px;
   border: 2px solid #4D4D94;
-  /*background-color: #85E0E0;*/
+  background-color: #85E0E0;
   background-color:#4D4D94;
-  color: #ffffff;
+  color: #ffffff;*/
+  background-color:#add8e6;
   text-align:center;
   width: 125px;
-   box-shadow: 2px 2px 1.5px #E6E6E6;
+   /*box-shadow: 2px 2px 1.5px #E6E6E6;*/
 }
 
 .insta {
@@ -193,13 +214,15 @@ a{
   font-family: "Georgia";
   color: #000000;
   text-align:center;
-  border-radius: 5px;
+  /*border-radius: 5px;
   border: 2px solid #4D4D94;
-  background-color:#ffffff;
-  width: 625px;
+  background-color:#ffffff;*/
+  border: 4px solid #add8e6;
+  width: 57%;
   margin-left:auto;
   margin-right:auto;
   padding:15px;
+    font-size:30px;
 }
 
 #login{
@@ -219,11 +242,11 @@ a{
 }
 
 #info{
-  border-radius: 5px;
-  border: 2px solid #4D4D94;
-
+/* border-radius: 5px;
+  border: 2px solid #4D4D94;*/
+  border: 4px solid #add8e6;
   text-align:center;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   color: #000000;
   padding: 20px;
   padding-bottom:30px;
