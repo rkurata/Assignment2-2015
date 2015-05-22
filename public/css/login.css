@@ -11,10 +11,6 @@ body {
   background-position: left top;
 }
 
-/*.homepage {
-   background-color:#d7dbff;
-}*/
-
 #spinner {
   background-image url: ("https://www.tobaccocontrolco.org/sites/all/themes/bootstrap/spinner.gif");
 }
@@ -48,7 +44,8 @@ body {
   margin-bottom:0;
 }
 
-/*.nav{
+.nav{
+  /*border-radius: 5px;*/
   border: 1px solid #4D4D94;
   padding:7px;
   margin-top: 0px;
@@ -64,6 +61,7 @@ body {
 }
 
 .current{
+  /*border-radius: 5px;*/
   border: 2px solid #4D4D94;
   padding:7px;
   margin-top: 0px;
@@ -76,24 +74,6 @@ body {
   width: 200px;
   height:80px;
   font-family:georgia;
-}*/
-
-td{
-  padding:10px;
-}
-
-a:link{
-  text-decoration:none;
-  color:#433c4b;
-  font-size:20px;
-}
-
-a:hover{
-  color:#A898BD;
-}
-
-#current{
-  text-decoration:underline;
 }
 
 #navbar {
@@ -144,11 +124,9 @@ a:hover{
 }
 
 #next {
- /* background: #ffffff;
+  background: #ffffff;
   border-radius: 5px;
-  border: 2px solid #4D4D94;*/
-  color:#000000;
-  border: 4px solid #add8e6;
+  border: 2px solid #4D4D94;
   padding: 20px;
   padding-bottom:30px;
   margin-top:20px;
@@ -161,22 +139,19 @@ a:hover{
 }
 
 .homenav {
-  font-family:georgia;
   padding:7px;
   margin-top: 10px;
   margin-bottom:10px;
   margin-right:40px;
   margin-left:40px;
-  border:4px solid #add8e6;
-  /*border-radius: 5px;*/
- /* border: 2px solid #4D4D94;*/
+  border-radius: 5px;
+  border: 2px solid #4D4D94;
   /*background-color: #85E0E0;*/
- /* background-color:#4D4D94;
-  color: #ffffff;*/
-  background-color:#add8e6;
+  background-color:#4D4D94;
+  color: #ffffff;
   text-align:center;
   width: 125px;
-  /*box-shadow: 2px 2px 1.5px #E6E6E6;*/
+   box-shadow: 2px 2px 1.5px #E6E6E6;
 }
 
 .insta {
@@ -195,7 +170,10 @@ a:hover{
 }
 
 
-
+a{
+  margin-right:10px;
+  margin-top: 40%;
+}
 
 #title {
   font-family: "Georgia";
@@ -215,15 +193,13 @@ a:hover{
   font-family: "Georgia";
   color: #000000;
   text-align:center;
-  /*border-radius: 5px;
+  border-radius: 5px;
   border: 2px solid #4D4D94;
-  background-color:#ffffff;*/
-  border: 4px solid #add8e6;
-  width: 57%;
+  background-color:#ffffff;
+  width: 625px;
   margin-left:auto;
   margin-right:auto;
   padding:15px;
-  font-size:30px;
 }
 
 #login{
@@ -243,11 +219,11 @@ a:hover{
 }
 
 #info{
- /* border-radius: 5px;
-  border: 2px solid #4D4D94;*/
-  border: 4px solid #add8e6;
+  border-radius: 5px;
+  border: 2px solid #4D4D94;
+
   text-align:center;
-  /*background-color: #ffffff;*/
+  background-color: #ffffff;
   color: #000000;
   padding: 20px;
   padding-bottom:30px;
@@ -261,6 +237,6 @@ a:hover{
 }
 
 #caption{
-  margin-left:15%;
-  margin-right:15%;
+	margin-left:15%;
+	margin-right:15%;
 }
