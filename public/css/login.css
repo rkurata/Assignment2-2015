@@ -94,11 +94,13 @@ a:link{
   text-decoration:none;
   color:#433c4b;
   font-size:20px;
+  font-family:Georgia;
+  padding:10px;
    /* margin-right:10px;
   margin-top: 40%;*/
 }
 
-a:hover{
+a:hover:link{
   color:#7acdda;
 }
 
