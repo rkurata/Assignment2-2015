@@ -48,14 +48,14 @@ body {
   margin-bottom:0;
 }
 
-.nav{
-  /*border: 1px solid #4D4D94;*/
+/*.nav{
+  border: 1px solid #4D4D94;
   padding:4px;
   margin-top: 0px;
   margin-right:auto;
   margin-left:auto;
- /* background-color: #4D4D94;
-  color: #ffffff;*/
+  background-color: #4D4D94;
+  color: #ffffff;
   color:#433c4b;
   font-size:20px;
   text-align:center;
@@ -65,25 +65,25 @@ body {
   background-color:#ffffff;
   border: 1px solid #ffffff;
 
-}
+}*/
 
 .current{
-  /*border: 1px solid #4D4D94;*/
+  /*border: 1px solid #4D4D94;
   padding:4px;
   margin-top: 0px;
   margin-right:auto;
   margin-left:auto;
- /* background-color: #4D4D94;
-  color: #ffffff;*/
+  background-color: #4D4D94;
+  color: #ffffff;
   color:#433c4b;
   font-size:20px;
   text-align:center;
   width: 160px;
   height:60px;
   font-family:georgia;
-  text-decoration:underline;
   background-color:#ffffff;
-border: 1px solid #ffffff;
+  border: 1px solid #ffffff;*/
+  text-decoration:underline;
 }
 
 td{
@@ -94,10 +94,20 @@ a:link{
   text-decoration:none;
   color:#433c4b;
   font-size:20px;
+   /* margin-right:10px;
+  margin-top: 40%;*/
 }
 
 a:hover{
-  color:#A898BD;
+  color:#7acdda;
+}
+
+a:visited{
+  color:#433c4b;
+}
+
+a:hover:visited{
+  color:#7acdda;
 }
 
 #current{
@@ -147,26 +157,26 @@ a:hover{
 }
 
 .icons{
-  margin-top: 15%;
+  margin-top: 10%;
   text-align:center;
+  /*border: 2px solid #ffffff;
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;*/
 }
 
-#next {
- /* background: #ffffff;
-  border-radius: 5px;
-  border: 2px solid #4D4D94;*/
-  color:#000000;
-  border: 4px solid #add8e6;
+.next {
   padding: 20px;
   padding-bottom:30px;
   margin-top:20px;
   margin-bottom: 30px;
-  width: 500px;
   margin-left:auto;
   margin-right:auto;
-  font-family: "Georgia";
-  top: 0px;
+  width: 500px;
+  background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
 }
+
+
 
 .homenav {
   font-family:georgia;
@@ -175,17 +185,15 @@ a:hover{
   margin-bottom:10px;
   margin-right:40px;
   margin-left:40px;
-  border:4px solid #add8e6;
-  /*border-radius: 5px;*/
- /* border: 2px solid #4D4D94;*/
-  /*background-color: #85E0E0;*/
- /* background-color:#4D4D94;
-  color: #ffffff;*/
-  background-color:#add8e6;
+  border:1px solid #7acdda;
+  background-color:#ffffff;
   text-align:center;
   width: 125px;
+  height:40px;
+  opacity:.8;
   /*box-shadow: 2px 2px 1.5px #E6E6E6;*/
 }
+
 
 .insta {
   float: center;
@@ -202,36 +210,24 @@ a:hover{
   
 }
 
-
-a{
-  margin-right:10px;
-  margin-top: 40%;
+.title {
+ font-size:25px;
+ font-family:Georgia;
+ padding-bottom:15px;
+ padding-top:5px;
+ color:#000000;
 }
 
-#title {
-  font-family: "Georgia";
-  color: #ffffff;
-  text-align:center;
-  margin-bottom:25px;
-  border-radius: 5px;
-  background-color: #FFFFFF;
-  width: 700px;
-  margin-left:auto;
-  margin-right:auto;
-  width: 450px;
-  padding:15px;
+.container{
+  margin-top:5%;
 }
 
 #c3title {
-  margin-top:10px;
   font-family: "Georgia";
   color: #000000;
   text-align:center;
-  /*border-radius: 5px;
-  border: 2px solid #4D4D94;
-  background-color:#ffffff;*/
-  border: 4px solid #add8e6;
-  width: 57%;
+  background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
+  width: 60%;
   margin-left:auto;
   margin-right:auto;
   padding:15px;
@@ -241,31 +237,31 @@ a{
 #login{
   font-size: 32pt;
   font-family: "Georgia";
-  background-color:#add8e6;
+ /* background-color:#add8e6;*/
   color: black;
   float: center;
   text-align: center;
   margin-left:auto;
   margin-right:auto;
   margin-bottom:10px;
-  border: 4px solid #add8e6;
+  border-radius: 5px;
+  /*border: 2px solid #ffffff;*/
   padding:15px;
   width:500px;
-
 }
 
-#loginbg{
+#loginbg {
+  background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
+}
+
+/*#loginbg{
   background-color:#add8e6;
-}
-
+}*/
 
 #info{
- /* border-radius: 5px;
-  border: 2px solid #4D4D94;*/
-  border: 4px solid #add8e6;
+  /*background-color:#7acdda;*/
+  background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
   text-align:center;
-  /*background-color: #ffffff;*/
-
   color: #000000;
   padding: 20px;
   padding-bottom:30px;
@@ -275,10 +271,18 @@ a{
   margin-left:auto;
   margin-right:auto;
   font-family: "Georgia";
-  top: 0px;
 }
 
 #caption{
   margin-left:15%;
   margin-right:15%;
+}
+
+hr{
+  border-color:#ffffff;
+}
+
+hr.navhr{
+  width: 63%;
+  border-color:#433c4b;
 }
