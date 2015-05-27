@@ -48,7 +48,7 @@ body {
   margin-bottom:0;
 }
 
-a #current{
+a.current{
   color:#7acdda;
 }
 
