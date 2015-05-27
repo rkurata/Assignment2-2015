@@ -102,14 +102,17 @@ a:link{
 
 a:hover:link{
   color:#7acdda;
+  text-decoration:none;
 }
 
 a:visited{
   color:#433c4b;
+  text-decoration:none;
 }
 
 a:hover:visited{
   color:#7acdda;
+  text-decoration:none;
 }
 
 #current{
