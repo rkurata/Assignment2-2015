@@ -48,10 +48,6 @@ body {
   margin-bottom:0;
 }
 
-a.current{
-  color:#7acdda;
-}
-
 td{
   padding:10px;
 }
@@ -81,7 +77,7 @@ a:hover:visited{
   text-decoration:none;
 }
 
-#current{
+a.current{
   color:#7acdda;
 }
 
