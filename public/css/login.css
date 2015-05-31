@@ -63,8 +63,8 @@ a:link{
 }
 
 a:hover:link{
-  color:#7acdda;
   text-decoration:none;
+  font-style:italic;
 }
 
 a:visited{
@@ -73,8 +73,8 @@ a:visited{
 }
 
 a:hover:visited{
-  color:#7acdda;
   text-decoration:none;
+  font-style:italic;
 }
 
 a.current{
