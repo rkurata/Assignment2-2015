@@ -65,6 +65,7 @@ a:link{
 a:hover:link{
   text-decoration:none;
   font-style:italic;
+  color:#433c4b;
 }
 
 a:visited{
@@ -75,6 +76,7 @@ a:visited{
 a:hover:visited{
   text-decoration:none;
   font-style:italic;
+  color:#433c4b;
 }
 
 a.current{
